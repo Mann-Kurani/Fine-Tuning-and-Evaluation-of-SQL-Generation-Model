@@ -16,26 +16,6 @@ This repository contains a project for fine-tuning and evaluating a language mod
 
 The project utilizes the `transformers` library for model handling and training, and `peft` for parameter-efficient fine-tuning using LoRA (Low-Rank Adaptation). The model is trained on a synthetic text-to-SQL dataset, and its performance is evaluated using BLEU and exact match metrics.
 
-## Setup
-
-To get started with this project, follow these steps:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/sql-generation-project.git
-   cd sql-generation-project
-   ```
-
-2. **Install the required packages:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Set up environment variables for Phoenix (optional):**
-   ```bash
-   export PHOENIX_COLLECTOR_ENDPOINT="http://localhost:6006"
-   ```
-
 ## Fine-Tuning the Model
 
 The `finetuner.py` script is responsible for fine-tuning the pre-trained language model on the text-to-SQL dataset. This involves the following steps:
