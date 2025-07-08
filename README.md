@@ -1,4 +1,3 @@
-```markdown
 # Fine-Tuning and Evaluation of SQL Generation Model
 
 This repository contains a project for fine-tuning and evaluating a language model aimed at generating SQL queries from natural language prompts. The primary components of the project include a script for fine-tuning (`finetuner.py`) and a script for evaluation (`phx.py`).
@@ -76,5 +75,4 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
+This project is licensed under the MIT License.
