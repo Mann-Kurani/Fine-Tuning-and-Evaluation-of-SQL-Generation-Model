@@ -1,0 +1,20 @@
+[project]
+name = "sql-finetune"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[[tool.mypy.overrides]]
+module = "datasets.*"
+ignore_missing_imports = true
+
+
+[[tool.mypy.overrides]]
+module = "finetuning_tools.*"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "evaluate.*"
+ignore_missing_imports = true
