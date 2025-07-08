@@ -2,16 +2,6 @@
 
 This repository contains a project for fine-tuning and evaluating a language model aimed at generating SQL queries from natural language prompts. The primary components of the project include a script for fine-tuning (`finetuner.py`) and a script for evaluation (`phx.py`).
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Setup](#setup)
-- [Fine-Tuning the Model](#fine-tuning-the-model)
-- [Evaluating the Model](#evaluating-the-model)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Overview
 
 The project utilizes the `transformers` library for model handling and training, and `peft` for parameter-efficient fine-tuning using LoRA (Low-Rank Adaptation). The model is trained on a synthetic text-to-SQL dataset, and its performance is evaluated using BLEU and exact match metrics.
